@@ -1,0 +1,99 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+/*CHALLENGE ONE*/
+h1 {
+    font-size:5rem;
+    color:red;
+    text-align: center;
+}
+
+.ColorSelection {
+    display:flex;
+    flex-direction: row;
+    gap: 0.7rem;
+}
+
+#border_image {
+    width: 50%;
+    height:50%;
+    border-radius:50%;
+}
+/*CHALLENGE TWO*/
+.images_section, .intput_section,
+.button_stickers, .respond_stickers {
+    display:flex;
+    justify-content:center;
+    gap:1rem;
+}
+
+.images_section img {
+    height:12rem;
+    width>100%;
+}
+
+.intput_section {
+    padding: 0.5rem 0rem;
+    gap:3.5rem;
+}
+
+.respond_stickers #ans_sticker {
+    font-width:900;
+    font-size:2.5rem;
+    text-align:center;
+}
+
+.button_stickers button {
+    margin: 1rem 0; /* Esto añade espacio arriba y abajo del botón */
+    height:2.5rem;
+    width:12rem;
+    background-color: #bcf5bc;
+    border-radius: 0.75rem;
+    border: 2px solid #0e5d0e;
+    font-size:1.3rem;
+}
+
+/*CHALLENGE THREE*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Esto ocupa el alto completo de la ventana del navegador */
+}
+
+.password-box {
+    display: flex;
+    gap: 0.5rem; /* Esto establece un espacio entre los selectores */
+}
+
+button {
+    margin: 1rem 0; /* Esto añade espacio arriba y abajo del botón */
+    height:2.5rem;
+    width:12rem;
+    background-color: #4CAF50;
+    border-radius: 0.75rem;
+    border: 2px solid black;
+    font-size:1.3rem;
+}
+
+h2 {
+    font-weight:900;
+    font-size:3rem;
+}
+
+.desf_3 {
+    height: 2.5rem;
+    width: 100%;
+}
+
+select option {
+    font-size:1rem;
+    color:blue;
+}
+
+#textPassword {
+    font-weight:900;
+    font-size:2rem;
+}
